@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		FFAABCD9274638CB0090AE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAABCD7274638CB0090AE63 /* Main.storyboard */; };
 		FFAABCDB274638CC0090AE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAABCDA274638CC0090AE63 /* Assets.xcassets */; };
 		FFAABCDE274638CC0090AE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAABCDC274638CC0090AE63 /* LaunchScreen.storyboard */; };
+		FFAABCEC27464E1A0090AE63 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAABCEB27464E1A0090AE63 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FFAABCDA274638CC0090AE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFAABCDD274638CC0090AE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFAABCDF274638CC0090AE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFAABCEB27464E1A0090AE63 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				644813E37884D476CBA3D3A8 /* Pods-RealmFileSyncCheck.debug.xcconfig */,
 				9FD287F99ACD27D27B2C8112 /* Pods-RealmFileSyncCheck.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				FFAABCDA274638CC0090AE63 /* Assets.xcassets */,
 				FFAABCDC274638CC0090AE63 /* LaunchScreen.storyboard */,
 				FFAABCDF274638CC0090AE63 /* Info.plist */,
+				FFAABCEB27464E1A0090AE63 /* DatabaseManager.swift */,
 			);
 			path = RealmFileSyncCheck;
 			sourceTree = "<group>";
@@ -206,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAABCEC27464E1A0090AE63 /* DatabaseManager.swift in Sources */,
 				FFAABCD6274638CB0090AE63 /* ViewController.swift in Sources */,
 				FFAABCD2274638CB0090AE63 /* AppDelegate.swift in Sources */,
 				FFAABCD4274638CB0090AE63 /* SceneDelegate.swift in Sources */,
